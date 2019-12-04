@@ -1,0 +1,14 @@
+body {
+    background-color: #000000;
+    color: #f80707;
+    font-family: 'Denova', Arial, sans-serif;
+}
+
+/* https://www.fontsquirrel.com/tools/webfont-generator */
+@font-face {
+    font-family: "Denova";
+    src: url("./fonts/Denova.eot");
+    src: url("./fonts/Denova.woff") format("woff"),
+    url("./fonts/Denova.otf") format("opentype"),
+    url("./fonts/Denova.svg#filename") format("svg");
+}
