@@ -2,6 +2,7 @@ body {
     background-color: #000000;
     color: #f80707;
     font-family: 'Denova', Arial, sans-serif;
+    font-weight: bolder;
 }
 
 /* https://www.fontsquirrel.com/tools/webfont-generator */
@@ -11,4 +12,17 @@ body {
     src: url("./fonts/Denova.woff") format("woff"),
     url("./fonts/Denova.otf") format("opentype"),
     url("./fonts/Denova.svg#filename") format("svg");
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+  }
+
+.socials {
+    
+}
+
+.text {
+    padding: 5%;
 }
