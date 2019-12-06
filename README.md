@@ -77,6 +77,12 @@ n/a
 open index.html
 ```
 
+### Sync to UAT ENV
+
+```sh
+aws s3 sync . s3://horrormakesushappy
+```
+
 ### Stop
 
 Close the browser :P.
