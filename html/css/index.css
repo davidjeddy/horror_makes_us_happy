@@ -1,0 +1,59 @@
+body {
+    background-color: #000000;
+    color: #f80707;
+    font-family: 'Denova', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+/* https://www.fontsquirrel.com/tools/webfont-generator */
+@font-face {
+    font-family: "Denova";
+    src: url("./fonts/Denova.eot");
+    src: url("./fonts/Denova.woff") format("woff"),
+    url("./fonts/Denova.otf") format("opentype"),
+    url("./fonts/Denova.svg#filename") format("svg");
+}
+
+a {
+    color: #f80707;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    text-align:center;
+}
+
+/* content containers */
+.container{
+    text-align:center;
+}
+
+.center_img{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+}
+
+.middle_img {
+    vertical-align: middle;
+}
+
+div.menu {
+    font-size: 18pt;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 5%;
+    max-width: 1920px;
+}
+
+div.menu > a{
+	text-decoration: none;
+}
+
+.text {
+    padding: 5%;
+    text-align: left;
+}
